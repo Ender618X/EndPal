@@ -1,0 +1,133 @@
+<html>
+    <head>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <script  src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+ 
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
+    <style>
+.city {
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+} 
+.city2 {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+}
+.city3 {
+    background-color: palegreen;
+    color: orange;
+    padding: 10px;
+}  
+</style>
+    </head>
+<body>
+
+ <form>
+<input type="date" placeholder=""> </input>
+
+<input type="password" placeholder="" required> </input>
+<button type="submit">  click </button>
+</form>
+<canvas> </canvas>
+<h2 class="city">London</h2>
+<p>London is the capital of England.</p>
+
+<h2 class="city2">Paris</h2>
+<p>Paris is the capital of France.</p>
+
+<h2 class="city3">Tokyo</h2>
+<p>Tokyo is the capital of Japan.</p>
+      <div class="div" style="width: 30%; height: 600px; background-color: green;">
+        <h1> Hola</h1>
+    <h2 class="city3"> Hola 3 </h2>
+    <p>
+    </p>
+    <span> <a href="www.gooogle.com" target="_blank"> link de google</a></span>
+    <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" width="220" height="65" alt="">
+   
+          <table style="width:100%">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td> 
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td> 
+    <td>94</td>
+  </tr>
+</table>
+
+<hr>
+    </div>
+   <div class="dropup">
+  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Dropup
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+    <li><a href="#">Action</a></li>
+    <li><a href="#">Another action</a></li>
+    <li><a href="#">Something else here</a></li>
+    <li role="separator" class="divider"></li>
+    <li><a href="#">Separated link</a></li>
+  </ul>
+  <ul class="nav nav-tabs">
+  <li role="presentation" class="active"><a href="#">Home</a></li>
+  <li role="presentation"><a href="#">Profile</a></li>
+  <li role="presentation"><a href="#">Messages</a></li>
+</ul>
+
+<div class="alert alert-success" role="alert">.ssssssss..</div>
+<div class="alert alert-info" role="alert">...</div>
+<div class="alert alert-warning" role="alert">...</div>
+<div class="alert alert-danger" role="alert">...</div>
+</div>
+</body>
+
+
+    <style>
+       #map {
+        height: 400px;
+        width: 100%;
+       }
+    </style>
+  </head>
+  <body>
+    <h3>My Google Maps Demo</h3>
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        var uluru = {lat: -25.363, lng: 131.044};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDC6mhweLe0zrHlMirmqvu47v8U0jNV2c0&callback=initMap">
+    </script>
+ 
+
+<div class="embed-responsive embed-responsive-16by9">
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/j-sz8M8gc6U" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+
+</html>
